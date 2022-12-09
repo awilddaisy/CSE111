@@ -1,0 +1,55 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+    Climbing Route Consensus Averaging. I'll name the Python file grading.py
+
+2. What real-world problem will your program address or help to solve?
+    At work, I'm a routesetter who creates climbing routes in a rock climbing gym. Because the grading of these routes is subjective universally in the sport,
+    we use a consensus card for the climbers to put down what they think the route is graded, if it's hard or easy. For a quick explanation, 
+    the lower the grade, the easier it is. For example, 5.9 is easier than a 5.11. There are also + and - on a grade (5.10-) meaning it's a softer
+    5.10. These are how climbers determine if it's a climb in their difficulty level. Then, after there are about 10 or more marks
+    on the consensus card, as a setter I take a rough average of the marks and then grade it based on the consensus. The problem is that it's not 100% accurate. 
+    With this program, I want to create a very exact average for all the consensus marks. Average the general grade, and then average the + and - on the consensus. 
+
+3. What will you learn from developing this program?
+    In this program, I hope to learn how to organize all my functions, create a test for the functions, and also create a more accurate grading system for the 
+    gym where I work. 
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+    
+    For my program, I will use math so that I can calculate the averate of the tick marks, datetime so that I can know which route was graded when,
+    I will also use pytest so that I can write test functions to test my program. 
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+    I probably will separate my functions so that I can first calculate the general grade of the consensus card, but then calculate the + and - on each route 
+    giving me an accurate grading of the route based on customer's consensus. 
+
+6. Will you write test functions to test at least two of your program
+functions?
+    Yes, I think that the two fucntions I have will be easy to write a test fucntion for since I'll be using the math function. Testing is a good skill
+    to practice since I'll be using it in more programs in school and my career. 
