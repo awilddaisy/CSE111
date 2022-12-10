@@ -1,5 +1,8 @@
 # Climbing Route Consensus Averaging
  ## This program will create exact and accurate averaging on routes based on climber's consensus.
+ ### I chose this program because in my workplace, climbers will add their opinions on the difficulty
+ #### of a route. Sometimes this gets hazy because of the + and - that can change the grade. I wanted
+ ##### to have a program that calculated the most accurate average of consensus despite that. 
 
 import math
 
@@ -68,8 +71,6 @@ def make_grade_dict():
         "5.14" : [25]
     }
     return grade_dict
-    # print(grade_dict)
-    print(grade_dict.values())
 
 def make_key_dict():
     key_dict = {
@@ -104,4 +105,5 @@ def make_key_dict():
 
 main()
 
-
+# Program by Daisy Mueller @ BYU-Idaho
+## December 10, 2022
